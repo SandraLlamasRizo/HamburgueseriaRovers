@@ -4,42 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
     <header>
-        <nav>
+        <section class="contact mobile">
             <ul><!--mobile-->
-                <li><a href="">mail icon</a></li>
-                <li><a href="">phone icon</a></li>
-                <li><a href="">carrito compra icon</a></li>
-                <li><a href="">user icon</a></li>
+                <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-phone-flip"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-circle-user"></i></a></li>
             </ul>
+        </section>
+        <section class="contact computer">
             <ul><!--computer-->
-                <li><a href="">mail icon - rover@gmail.com</a></li>
-                <li><a href="">phone icon - 91 555 66 77</a></li>
-                <li><a href="">carrito compra icon - Carrito Compra</a></li>
-                <li><a href="">user icon - Usuario</a></li>
+                <li><a href=""><i class="fa-solid fa-envelope"></i> rover@gmail.com</a></li>
+                <li><a href=""><i class="fa-solid fa-phone-flip"></i> 91 555 66 77</a></li>
+                <li><a href=""><i class="fa-solid fa-cart-shopping"></i> Carrito Compra</a></li>
+                <li><a href=""><i class="fa-solid fa-circle-user"></i> Usuario</a></li>
             </ul>
-        </nav>
+        </section>
     </header>
     <main>
         <nav>
-            <section>
-                <img src="" alt="Logo">
-                icono menu hamburguesa
+            <section class="nav mobile">
+                <section><!--mobile-->
+                    <img src="./images/logo.jpg" alt="Logo">
+                    <i class="fa-solid fa-bars"></i>
+                </section>
+                <ul>
+                    <li><span class="rojo">Inicio</span></li>
+                    <hr>
+                    <li>Menu</li>
+                    <hr>
+                    <li>Blog</li>
+                    <hr>
+                    <li>Equipo</li>
+                </ul>
             </section>
-            <ul>
-                <li><span class="rojo">Inicio</span></li>
-                <hr>
-                <li>Menu</li>
-                <hr>
-                <li>Blog</li>
-                <hr>
-                <li>Equipo</li>
-            </ul>
-            <section>
-                <img src="" alt="Logo">
+            <section class="nav computer"><!--computer-->
+                <img src="./images/logo.jpg" alt="Logo">
                 <ul>
                     <li><span class="rojo">Inicio</span></li>
                     <li>Menu</li>
@@ -49,7 +54,7 @@
             </section>
         </nav>
         <section class="hero">
-            <img src="" alt="Hamburguesa">
+            <img src="./images/fondo.jpg" alt="Hamburguesa">
             <h2>Las mejores hamburguesas del mundo</h2>
             <h4><span class="rojo">Bienvenido a nuestra hamburguesería</span></h4>
             <h4>Come a partir de 15€</h4>
