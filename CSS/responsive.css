@@ -1,0 +1,13 @@
+.computer {
+    display: none;
+}
+
+@media (width > 768px) {
+    .computer {
+        display: contents
+    }
+
+    .mobile {
+        display: none;
+    }
+}

@@ -1,0 +1,32 @@
+.hero {
+    background-color: rgb(32, 32, 32);
+    height: 100vh;
+    
+    .fondo {
+        position: relative;
+        z-index: 0;
+        height: 100%;
+        object-fit: cover;
+    }
+    img {
+        opacity: 0.4;
+        object-fit: cover;
+    }
+}
+
+
+.text {
+    position: absolute;
+    top: 450px;
+    left: 10%;
+    color: white;
+    h2 {
+        font-size: 40px;
+    }
+    button {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 15px;
+    }
+}

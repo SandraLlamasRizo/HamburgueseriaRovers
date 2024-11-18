@@ -1,0 +1,22 @@
+header {
+    background-color: black;
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 15px;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    i {
+        color: red;
+    }
+    
+}
+
+
+

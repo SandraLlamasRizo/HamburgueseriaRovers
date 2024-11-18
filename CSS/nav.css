@@ -1,0 +1,38 @@
+.navm ul {
+    margin: 30px 15px;
+    text-align: center;
+}
+
+.menu {
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    i {
+        color: rgb(155, 155, 155);
+    }
+}
+
+.navc {
+    margin: 30px 15px;
+
+}
+
+.menu2 {
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+        display: flex;
+        gap: 15px;
+    }
+}
+
+.logo {
+    width: 100px;
+}
+
+nav li {
+    color: rgb(155, 155, 155);
+}
