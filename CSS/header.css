@@ -3,8 +3,8 @@ header {
 
     ul {
         display: flex;
-        justify-content: space-evenly;
-        padding: 15px;
+        justify-content: space-between;
+        padding: 15px 30px;
     }
     
     a {
