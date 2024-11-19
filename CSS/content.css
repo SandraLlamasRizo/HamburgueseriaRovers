@@ -16,6 +16,8 @@
     
         img {
             width: 54px;
+            height: 48px;
+            object-fit: contain;
         }
 
         h3 {
