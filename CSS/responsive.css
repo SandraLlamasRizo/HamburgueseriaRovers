@@ -32,6 +32,25 @@
         }
     }
 
+    .legal:hover {
+        color: rgba(250,87,58,255);
+    }
+    
+    .cookies:hover {
+        color: rgba(250,87,58,255);
+    }
+    
+    .cuadrado {
+        transition: transform 1s;
+    }
+
+    .hamburgueseria:hover {
+        .cuadrado {
+            transform: rotate(0deg);
+        }
+        
+    }
+    
 }
 
 @media (width > 1250px) {

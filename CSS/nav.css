@@ -33,3 +33,49 @@ nav li {
     color: rgb(155, 155, 155);
     padding: 5px;
 }
+
+.logo:hover {
+    cursor: pointer;
+}
+
+
+.nInicioM:hover {
+    cursor: pointer;
+}
+
+.nMenuM:hover {
+    cursor: pointer;
+}
+
+.nBlogM:hover {
+    cursor: pointer;
+}
+
+.nEquipoM:hover {
+    cursor: pointer;
+}
+
+.nHamb:hover {
+    cursor: pointer;
+}
+
+.nInicio:hover {
+    cursor: pointer;
+}
+
+.nMenu:hover {
+    cursor: pointer;
+    color: rgba(250,87,58,255);
+}
+
+.nBlog:hover {
+    cursor: pointer;
+    color: rgba(250,87,58,255);
+}
+
+.nEquipo:hover {
+    cursor: pointer;
+    color: rgba(250,87,58,255);
+}
+
+

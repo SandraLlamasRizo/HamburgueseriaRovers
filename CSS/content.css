@@ -14,7 +14,6 @@
         align-items: left;
         gap: 10px;
     
-
         img {
             width: 54px;
         }
@@ -69,7 +68,6 @@
     h2 {
         font-size: 30px;
         text-align: center;
-        
     }
 
     img {
@@ -78,4 +76,11 @@
     }
 }
 
+.mas:hover {
+    cursor: pointer;
+}
 
+.prueba {
+    border: 2px solid red;
+
+}
