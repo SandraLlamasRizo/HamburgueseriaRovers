@@ -1,0 +1,14 @@
+.back {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    i{
+        color: rgba(250,87,58,255);
+    }
+
+    i:hover {
+        cursor: pointer;
+    }
+
+}

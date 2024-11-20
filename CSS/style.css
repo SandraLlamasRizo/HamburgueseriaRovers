@@ -3,6 +3,7 @@
 @import url(./nav.css);
 @import url(./hero.css);
 @import url(./content.css);
+@import url(./back.css);
 @import url(./footer.css);
 @import url(./responsive.css);
 
@@ -14,10 +15,7 @@ a:hover {
     cursor: pointer;
 }
 
-button:hover {
-    cursor: pointer;
-    background-color: transparent;
-    color: rgba(250,87,58,255);
-    border: 1px solid rgba(250,87,58,255);
-    padding: 14px;
+h2 {
+    font-family: "Handle";
+    font-weight: lighter;
 }

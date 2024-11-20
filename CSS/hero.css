@@ -60,3 +60,8 @@ button {
     width: fit-content;
     font-size: 18px;
 }
+
+button:hover {
+    cursor: pointer;
+    
+}
