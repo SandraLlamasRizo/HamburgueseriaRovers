@@ -1,29 +1,47 @@
 
 h2 {
-    font-size: 30px;
+    font-size: 45px;
     font-family: 'Handlee';
-    font-weight: lighter;
-}
-
-li {
-    font-family: 'Montserrat';
-    font-weight: light;
+    font-weight: normal;
 }
 
 h3 {
-    font-size: 20px;
-}
-
-p {
-    font-size: 20px;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: bold;
+    
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Montserrat';
     font-weight: normal;
 }
 
+h5 {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: normal;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    line-height: 25px;
+}
+
 button{
+    font-size: 20px;
+}
+
+li {
+    font-family: 'Montserrat';
     font-size: 18px;
+    font-weight: normal;
 }

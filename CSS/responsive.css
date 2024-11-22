@@ -13,6 +13,12 @@
         display: none;
     }
 
+    header {
+        ul {
+            padding: 30px 40px;
+        }
+    }
+
     .articles1 {
         display: grid;
         grid-template-columns: 5% 28% 5% 28% 5% 28%;
@@ -56,7 +62,7 @@
         background-color: transparent;
         color: rgba(250,87,58,255);
         border: 1px solid rgba(250,87,58,255);
-        padding: 14px;
+        padding: 19px;
     }
 
     figure {
@@ -102,6 +108,12 @@
     }
 
     .services, .us {
+        justify-content: start;
+        width: 1250px;
+        margin:auto;
+    }
+
+    .footer {
         justify-content: start;
         width: 1250px;
         margin:auto;

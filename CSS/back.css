@@ -1,7 +1,7 @@
 .back {
     position: fixed;
-    right: 20px;
-    bottom: 20px;
+    right: 10px;
+    bottom: 60px;
 
     i{
         color: rgba(250,87,58,255);
