@@ -27,17 +27,13 @@
     color: white;
 
     h2 {
-        font-size: 30px;
         margin-right: 25px;
         padding: 20px 0;
-        font-weight: bold;
     }
 
     h4 {
-        font-size: 20px;
         margin-right: 25px;
         padding: 10px 0;
-        font-weight: lighter;
     }
 
     .RS {
@@ -58,7 +54,7 @@ button {
     padding: 15px;
     margin: 10px 0;
     width: fit-content;
-    font-size: 18px;
+
 }
 
 button:hover {

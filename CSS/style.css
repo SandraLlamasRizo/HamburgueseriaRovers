@@ -6,6 +6,7 @@
 @import url(./back.css);
 @import url(./footer.css);
 @import url(./responsive.css);
+@import url(./fonts.css);
 
 .rojo {
     color: rgba(250,87,58,255);
@@ -13,9 +14,4 @@
 
 a:hover {
     cursor: pointer;
-}
-
-h2 {
-    font-family: "Handle";
-    font-weight: lighter;
 }
