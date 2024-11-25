@@ -17,9 +17,10 @@
         margin: 30px 20px;
     
         img {
-            width: 70px;
-            height: 70px;
+            width: 60px ;
+            height: 54px;
             object-fit: contain;
+            text-align:start;
         }
     }
 
@@ -33,7 +34,7 @@
         width: 508px;
         img {
             padding: 4px;
-            width: 500px
+            width: 500px;
         };
 
         div {
